@@ -1,0 +1,50 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to bottom right,
+        #fff,
+        rgb(124, 114, 114)
+        );
+    place-items: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fill {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+
+.empty {
+    width:260px;
+    height: 260px;
+    border: 2px solid rgb(184, 200, 232);
+    background-color: #fff;
+    margin: 10px;
+}
+
+.hold {
+    border: 4px solid #ccc;
+}
+.hoverd {
+    background-color: #f4f4f4;
+    border: dotted;
+}
+.invisible {
+    display: none;
+}
